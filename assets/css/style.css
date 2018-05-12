@@ -55,7 +55,7 @@ header {
 
 .header-content {
     margin: auto; 
-    width: 1000px;
+    width: 960px;
 }
 
 .left-header {
@@ -79,14 +79,16 @@ header {
 .content {
     background-color: #ffffff;
     height: 500px;
-    max-width: 960px;
+    max-width: 920px;
     width: 100%;
     padding: 20px;
     border: #dddddd solid 1.5px;
     margin: auto; 
     position: relative;
     top: 25px;
+    overflow: hidden;
 }
+
 
 .top-content {
     max-height: 100px;
@@ -114,10 +116,77 @@ img {
     text-align: justify;
 }
 
-footer {
+.form {
+    width: 100%;
+    padding-top: 20px;
+    border-top: #dddddd solid 2px;
+ }
+
+ .input-box {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    color: #777777
+ }
+
+ .extended-background {
+     height: 900px;
+     padding: 0 20px;
+ }
+
+ .extended-content {
+    height: 600px;
+ }
+
+ .extended-content2 {
+     height: 800px;
+ }
+
+ button {
+     margin: 10px 0;
+     background: #4aaaa5;
+     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+     font-size: 16px;
+     color: #ffffff;
+ }
+
+.portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    border-top: #dddddd solid 2px;
+    max-height: 400px;
+    padding-top: 20px;
+}
+
+.img-contain {
+    width: 250px;
+    height: 175px;
+    margin: 20px;
+}
+
+.labels {
+    position: relative;
+    
+}
+
+.labels-div {
+    position: absolute;
+    bottom: 40px;
+    width: 230px;
+    padding: 10px;
+    margin: 0 20px;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+ footer {
     border-top: #4aaaa5 solid 5px;
     height: 100px;
     background-color: #666666;
     text-align: center;
     position: relative;
 }
+
