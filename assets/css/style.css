@@ -1,6 +1,6 @@
 header, h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-
+    font-weight: bold;
 }
 
 p {
@@ -60,10 +60,12 @@ header {
 
 .left-header {
     float: left;
+    height: 50px;
     background-color: #4aaaa5;
     color: #ffffff;
-    font-size: 100%;
-    padding: 0 30px;
+    font-size: 30px;
+    padding: 20px 30px;
+    text-align: center;
 }
 
 .right-header {
@@ -91,9 +93,10 @@ header {
 
 
 .top-content {
-    max-height: 100px;
+    display: flex;
+    height: 60px;
     color: #4aaaa5;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 30px;
 }
 
 img {
@@ -104,16 +107,17 @@ img {
     display: flex;
     text-align: justify;
     overflow: auto;
-    max-height: 220px;
+    max-height: 260px;
     padding-top: 20px;
     border-top: #dddddd solid 2px;
 }
 
 .bottom-content {
     display: flex;
-    max-height: 170px;
+    max-height: 190px;
     overflow: auto;
     text-align: justify;
+    padding-top: 10px;
 }
 
 .form {
