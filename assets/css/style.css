@@ -158,8 +158,9 @@ img {
     flex-wrap: wrap;
     padding-top: 20px;
     border-top: #dddddd solid 2px;
-    max-height: 400px;
+    max-height: 700px;
     padding-top: 20px;
+    overflow: auto;
 }
 
 .img-contain {
